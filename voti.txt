@@ -1,414 +1,373 @@
 Valutazioni giornaliere
 maggio 2025
-8.5 
+7 
 mar, 27/05
 INFORMATICA
 scritto
-otto,50
+sette
 7.5 
-ven, 23/05
-RELIGIONE CATTOLICA
-scritto
-sette,50
-10 
 ven, 23/05
 LINGUA INGLESE
 pratico
-dieci
-9.25 
+sette,50
+4.5 
+gio, 22/05
+SISTEMI E RETI
+orale
+quattro,50
+8 
 lun, 19/05
 AREA AUTONOMIA INFORMATICA
 pratico
-nove+
-9.5 
+otto
+6 
+ven, 16/05
+LINGUA E LETTERATURA ITALIANA
+orale
+sei
+6.75 
+mer, 14/05
+TECNOLOGIE E PROGETTAZIONE DI SISTEMI INFORMATICI E DI TELECOMUNICAZIONI
+pratico
+sei,75
+7.5 
 mar, 13/05
 INFORMATICA
 pratico
-nove,50
-8.25 
+sette,50
+7 
 lun, 12/05
 TECNOLOGIE E PROGETTAZIONE DI SISTEMI INFORMATICI E DI TELECOMUNICAZIONI
 orale
-otto+
-8.5 
+sette
+6 
 ven, 09/05
 MATEMATICA E COMPLEMENTI DI MATEMATICA
 scritto
-otto,50
-8.75 
+sei
+5.25 
 gio, 08/05
 TELECOMUNICAZIONI
 scritto
-otto,75
-9.5 
+cinque +
+7 
 mar, 06/05
 LINGUA E LETTERATURA ITALIANA
 scritto
-nove,50
-aprile 2025
-7 
-mer, 30/04
-TECNOLOGIE E PROGETTAZIONE DI SISTEMI INFORMATICI E DI TELECOMUNICAZIONI
-pratico
 sette
-9 
-mar, 29/04
-LINGUA INGLESE
-orale
-nove
-9.75 
+aprile 2025
+5 
 mar, 29/04
 SISTEMI E RETI
 scritto
-nove,75
-9 
+cinque
+6 
 lun, 28/04
 STORIA
 orale
-nove
-8.5 
-gio, 17/04
-TELECOMUNICAZIONI
+sei
+8 
+mer, 16/04
+LINGUA INGLESE
 orale
-otto,50
-9 
-mar, 15/04
-SCIENZE MOTORIE E SPORTIVE
-pratico
-nove
-9.25 
+otto
+7.25 
 mar, 15/04
 SISTEMI E RETI
 pratico
-nove+
-8.25 
+sette+
+8.75 
+mar, 15/04
+SCIENZE MOTORIE E SPORTIVE
+pratico
+otto,75
+6.75 
 lun, 14/04
 TECNOLOGIE E PROGETTAZIONE DI SISTEMI INFORMATICI E DI TELECOMUNICAZIONI
 scritto
-otto+
-10 
-mer, 09/04
-TECNOLOGIE E PROGETTAZIONE DI SISTEMI INFORMATICI E DI TELECOMUNICAZIONI
-pratico
-dieci
-9 
+sei,75
+8.25 
 mer, 09/04
 LINGUA INGLESE
 scritto
-nove
-6.5 
+otto+
+8.5 
+mer, 09/04
+TECNOLOGIE E PROGETTAZIONE DI SISTEMI INFORMATICI E DI TELECOMUNICAZIONI
+pratico
+otto,50
+6 
 mar, 08/04
 SISTEMI E RETI
 pratico
-sei,50
-7.75 
+sei
+5.75 
 lun, 07/04
 LINGUA E LETTERATURA ITALIANA
 orale
-sette,75
-8.5 
-ven, 04/04
-MATEMATICA E COMPLEMENTI DI MATEMATICA
-orale
-otto,50
+cinque,75
 marzo 2025
-9.5 
+7.5 
 mar, 18/03
 INFORMATICA
 pratico
-nove,50
-10 
+sette,50
+5 
+ven, 14/03
+MATEMATICA E COMPLEMENTI DI MATEMATICA
+orale
+cinque
+6 
 ven, 14/03
 STORIA
 orale
-dieci
-10 
+sei
+6 
 gio, 13/03
 TELECOMUNICAZIONI
 scritto
-dieci
+sei
 10 
-mar, 11/03
-AREA AUTONOMIA INFORMATICA
-scritto
-dieci
-9 
 mar, 11/03
 SCIENZE MOTORIE E SPORTIVE
 pratico
-nove
+dieci
 febbraio 2025
-9 
-ven, 28/02
-LINGUA INGLESE
-orale
-nove
-9 
+6.25 
 ven, 28/02
 MATEMATICA E COMPLEMENTI DI MATEMATICA
 scritto
-nove
-9 
+sei +
+8 
+mar, 25/02
+LINGUA INGLESE
+orale
+otto
+6 
+mar, 25/02
+AREA AUTONOMIA INFORMATICA
+scritto
+sei
+7.75 
 lun, 24/02
 AREA AUTONOMIA INFORMATICA
 scritto
-nove
-10 
+sette,75
+6.25 
 ven, 21/02
 LINGUA E LETTERATURA ITALIANA
-scritto
-dieci
-10 
+orale
+sei +
+5.25 
 mar, 18/02
 SISTEMI E RETI
 pratico
-dieci
-9 
+cinque +
+8 
+gio, 13/02
+TELECOMUNICAZIONI
+orale
+otto
+9.5 
 mer, 12/02
 LINGUA INGLESE
 scritto
-nove
-9.5 
+nove,50
+8.5 
 mar, 11/02
 INFORMATICA
 orale
-nove,50
-9 
-lun, 10/02
-LINGUA E LETTERATURA ITALIANA
-orale
-nove
-10 
+otto,50
+8.75 
 mar, 04/02
 INFORMATICA
 pratico
-dieci
-6.5 
+otto,75
+6 
 lun, 03/02
 TECNOLOGIE E PROGETTAZIONE DI SISTEMI INFORMATICI E DI TELECOMUNICAZIONI
 scritto
-sei,50
+sei
 gennaio 2025
-9 
+8 
 mar, 28/01
 SCIENZE MOTORIE E SPORTIVE
 pratico
-nove
-9 
-ven, 24/01
-INFORMATICA
-pratico
-nove
+otto
 9 
 mer, 22/01
 TECNOLOGIE E PROGETTAZIONE DI SISTEMI INFORMATICI E DI TELECOMUNICAZIONI
 pratico
 nove
-8.75 
-ven, 17/01
-RELIGIONE CATTOLICA
-orale
-otto,75
-10 
-mar, 14/01
-SCIENZE MOTORIE E SPORTIVE
+7 
+mer, 15/01
+INFORMATICA
 pratico
-dieci
-8.75 
+sette
+9 
 mar, 14/01
 INFORMATICA
 scritto
-otto,75
-9.5 
-lun, 13/01
-AREA AUTONOMIA INFORMATICA
+nove
+9 
+mar, 14/01
+SCIENZE MOTORIE E SPORTIVE
 pratico
-nove,50
-9.25 
+nove
+6 
 lun, 13/01
 STORIA
 orale
-nove+
-8.75 
-ven, 10/01
-MATEMATICA E COMPLEMENTI DI MATEMATICA
-orale
-otto,75
+sei
+9 
+lun, 13/01
+AREA AUTONOMIA INFORMATICA
+pratico
+nove
 9 
 ven, 10/01
 EDUCAZIONE CIVICA E ALLA CITTADINANZA
 pratico
 nove
-10 
+8 
 ven, 10/01
 LINGUA E LETTERATURA ITALIANA
 scritto
-dieci
-9.25 
+otto
+9.75 
 gio, 09/01
 SISTEMI E RETI
 scritto
-nove+
+nove,75
 dicembre 2024
-9 
+4 
 gio, 19/12
 TELECOMUNICAZIONI
 orale
-nove
+quattro
 8 
 mar, 17/12
 SISTEMI E RETI
 pratico
 otto
-10 
+8 
 mar, 17/12
 SCIENZE MOTORIE E SPORTIVE
 pratico
-dieci
-10 
-mer, 11/12
-EDUCAZIONE CIVICA E ALLA CITTADINANZA
-pratico
-dieci
-9.5 
+otto
+8.5 
 mer, 11/12
 LINGUA INGLESE
 orale
-nove,50
-9 
+otto,50
+8.5 
+mer, 11/12
+EDUCAZIONE CIVICA E ALLA CITTADINANZA
+pratico
+otto,50
+7.25 
 lun, 09/12
 TECNOLOGIE E PROGETTAZIONE DI SISTEMI INFORMATICI E DI TELECOMUNICAZIONI
 scritto
-nove
-10 
+sette+
+4 
 gio, 05/12
 TELECOMUNICAZIONI
 scritto
-dieci
-6.25 
-mer, 04/12
-TECNOLOGIE E PROGETTAZIONE DI SISTEMI INFORMATICI E DI TELECOMUNICAZIONI
-pratico
-sei +
-9.25 
+quattro
+9 
 mer, 04/12
 LINGUA INGLESE
 scritto
-nove+
-9 
+nove
+5.75 
+mer, 04/12
+TECNOLOGIE E PROGETTAZIONE DI SISTEMI INFORMATICI E DI TELECOMUNICAZIONI
+pratico
+cinque,75
+8.5 
 mar, 03/12
 INFORMATICA
 pratico
-nove
-10 
+otto,50
+7.5 
 lun, 02/12
 EDUCAZIONE CIVICA E ALLA CITTADINANZA
 orale
-dieci
+sette,50
 novembre 2024
-9.25 
+7 
 ven, 29/11
 MATEMATICA E COMPLEMENTI DI MATEMATICA
 scritto
-nove+
+sette
 9.25 
-mar, 26/11
-SCIENZE MOTORIE E SPORTIVE
-pratico
-nove+
-9.75 
 mar, 26/11
 AREA AUTONOMIA INFORMATICA
 scritto
-nove,75
+nove+
 8.5 
-ven, 22/11
-RELIGIONE CATTOLICA
-orale
+mar, 26/11
+SCIENZE MOTORIE E SPORTIVE
+pratico
 otto,50
-10 
+6.5 
+lun, 18/11
+MATEMATICA E COMPLEMENTI DI MATEMATICA
+orale
+sei,50
+6.25 
 ven, 08/11
 STORIA
 orale
-dieci
-9 
+sei +
+6 
 mar, 05/11
 SISTEMI E RETI
 pratico
-nove
+sei
 ottobre 2024
-8.5 
+7.75 
 mer, 30/10
 LINGUA INGLESE
 orale
-otto,50
-10 
-mar, 29/10
-SISTEMI E RETI
-scritto
-dieci
-9.25 
+sette,75
+8.75 
 mar, 29/10
 SCIENZE MOTORIE E SPORTIVE
 pratico
-nove+
-8.25 
+otto,75
+6.25 
+mar, 29/10
+SISTEMI E RETI
+scritto
+sei +
+6.75 
 lun, 28/10
 TECNOLOGIE E PROGETTAZIONE DI SISTEMI INFORMATICI E DI TELECOMUNICAZIONI
 orale
-otto+
+sei,75
 8.5 
 mer, 23/10
 LINGUA INGLESE
 scritto
 otto,50
+8.5 
+mar, 22/10
+INFORMATICA
+pratico
+otto,50
 9 
 mar, 22/10
 SCIENZE MOTORIE E SPORTIVE
 pratico
 nove
-10 
-mar, 22/10
-INFORMATICA
-pratico
-dieci
-9.25 
+7.25 
 lun, 21/10
 AREA AUTONOMIA INFORMATICA
 scritto
-nove+
-10 
+sette+
+6 
 ven, 18/10
 LINGUA E LETTERATURA ITALIANA
 scritto
-dieci
-8.25 
-mer, 16/10
-INFORMATICA
-scritto
-otto+
-10 
-mar, 08/10
-SISTEMI E RETI
-scritto
-dieci
-7 
-lun, 07/10
-LINGUA E LETTERATURA ITALIANA
-orale
-sette
-9 
-ven, 04/10
-LINGUA INGLESE
-orale
-nove
-9.75 
-ven, 04/10
-MATEMATICA E COMPLEMENTI DI MATEMATICA
-scritto
-nove,75
-10 
-gio, 03/10
-TELECOMUNICAZIONI
-scritto
-dieci
