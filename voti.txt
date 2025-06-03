@@ -1,14 +1,3 @@
-Vai al Contenuto
-logo provincia trento
-Registro elettronico FAMIGLIA
-ALESSIO FERRARI  
-Studente - ALESSIO FERRARIValutazioni
-Valutazioni
-Ricerca
-Cerca per disciplina ...
-Agenda
-calendario
-Valutazioni giornaliere
 Valutazioni giornaliere
 maggio 2025
 8.5 
@@ -102,6 +91,11 @@ lun, 14/04
 TECNOLOGIE E PROGETTAZIONE DI SISTEMI INFORMATICI E DI TELECOMUNICAZIONI
 scritto
 otto+
+8.75 
+ven, 11/04
+RELIGIONE CATTOLICA
+orale
+otto,75
 9 
 mer, 09/04
 LINGUA INGLESE
@@ -428,15 +422,3 @@ gio, 03/10
 TELECOMUNICAZIONI
 scritto
 dieci
-Provincia Autonoma di Trento
-Sistema informativo della scuola trentina
-
-Recapiti e contatti
-Provincia Autonoma di Trento
-Dipartimento istruzione e cultura
-Via Gilli, 3 38121 TRENTO (TN)
-
- Dove siamo
-Richiedi supporto
-Progetto cofinanziato dai Fondi europei della Provincia autonoma di Trento
-Dichiarazione di accessibilitàPrivacy e cookieNote legaliSocial Media PolicyInfo CookiesRealizzazione a cura di Trentino Digitale S.p.A.Versione isi_v2.50.1
