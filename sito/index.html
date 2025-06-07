@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatore Medie Scolastiche</title>
+    <meta name="description" content="Applicazione per il calcolo delle medie scolastiche per quadrimestre">
+    <meta name="theme-color" content="#4285f4">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="icons/favicon.png" type="image/png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Font Awesome per le icone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- PWA manifest -->
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <header>
+        <h1>Calcolatore Medie Scolastiche</h1>
+        <nav>
+            <button id="btn-dashboard" class="nav-btn active"><i class="fas fa-chart-line"></i> Dashboard</button>
+            <button id="btn-add-voto" class="nav-btn"><i class="fas fa-plus-circle"></i> Aggiungi Voto</button>
+            <button id="btn-settings" class="nav-btn"><i class="fas fa-cog"></i> Impostazioni</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Dashboard - Visualizzazione delle medie -->
+        <section id="dashboard" class="page active">
+            <div class="card">
+                <h2>Medie Generali</h2>
+                <div class="medie-generali">
+                    <div class="media-box">
+                        <h3>Primo Quadrimestre</h3>
+                        <div class="media-value" id="media-q1">--</div>
+                    </div>
+                    <div class="media-box">
+                        <h3>Secondo Quadrimestre</h3>
+                        <div class="media-value" id="media-q2">--</div>
+                    </div>
+                    <div class="media-box highlight">
+                        <h3>Media Annuale</h3>
+                        <div class="media-value" id="media-totale">--</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Medie per Materia</h2>
+                <div class="tabs">
+                    <button class="tab-btn active" data-tab="tab-q1">Primo Quadrimestre</button>
+                    <button class="tab-btn" data-tab="tab-q2">Secondo Quadrimestre</button>
+                    <button class="tab-btn" data-tab="tab-totale">Totale</button>
+                </div>
+                
+                <div id="tab-q1" class="tab-content active">
+                    <table class="medie-table">
+                        <thead>
+                            <tr>
+                                <th>Materia</th>
+                                <th>Media</th>
+                            </tr>
+                        </thead>
+                        <tbody id="medie-q1-table">
+                            <!-- Contenuto generato dinamicamente -->
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div id="tab-q2" class="tab-content">
+                    <table class="medie-table">
+                        <thead>
+                            <tr>
+                                <th>Materia</th>
+                                <th>Media</th>
+                            </tr>
+                        </thead>
+                        <tbody id="medie-q2-table">
+                            <!-- Contenuto generato dinamicamente -->
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div id="tab-totale" class="tab-content">
+                    <table class="medie-table">
+                        <thead>
+                            <tr>
+                                <th>Materia</th>
+                                <th>Media</th>
+                            </tr>
+                        </thead>
+                        <tbody id="medie-totale-table">
+                            <!-- Contenuto generato dinamicamente -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2>Tutti i Voti</h2>
+                <div class="voti-list" id="voti-list">
+                    <!-- Contenuto generato dinamicamente -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Form per aggiungere un nuovo voto -->
+        <section id="add-voto" class="page">
+            <div class="card">
+                <h2>Aggiungi Nuovo Voto</h2>
+                <form id="voto-form">
+                    <div class="form-group">
+                        <label for="voto">Voto:</label>
+                        <input type="number" id="voto" step="0.25" min="1" max="10" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="data">Data:</label>
+                        <input type="date" id="data" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="materia">Materia:</label>
+                        <input type="text" id="materia" list="materie-list" required>
+                        <datalist id="materie-list">
+                            <!-- Opzioni generate dinamicamente -->
+                        </datalist>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="tipo">Tipo:</label>
+                        <select id="tipo" required>
+                            <option value="scritto">Scritto</option>
+                            <option value="orale">Orale</option>
+                            <option value="pratico">Pratico</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="descrizione">Descrizione (opzionale):</label>
+                        <input type="text" id="descrizione">
+                    </div>
+                    
+                    <div class="form-actions">
+                        <button type="submit" class="btn-primary">Salva</button>
+                        <button type="reset" class="btn-secondary">Cancella</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Impostazioni -->
+        <section id="settings" class="page">
+            <div class="card">
+                <h2>Impostazioni</h2>
+                <form id="settings-form">
+                    <div class="form-group">
+                        <label for="fine-q1">Data fine primo quadrimestre:</label>
+                        <input type="date" id="fine-q1" required>
+                    </div>
+                    
+                    <div class="form-actions">
+                        <button type="submit" class="btn-primary">Salva Impostazioni</button>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="card">
+                <h2>Gestione Dati</h2>
+                <div class="data-actions">
+                    <button id="btn-export" class="btn-secondary">
+                        <i class="fas fa-download"></i> Esporta Dati
+                    </button>
+                    <button id="btn-import" class="btn-secondary">
+                        <i class="fas fa-upload"></i> Importa Dati
+                    </button>
+                    <input type="file" id="import-file" accept=".json" style="display: none;">
+                    <button id="btn-clear" class="btn-danger">
+                        <i class="fas fa-trash"></i> Cancella Tutti i Dati
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Calcolatore Medie Scolastiche</p>
+    </footer>
+
+    <!-- Modal per conferma -->
+    <div id="confirm-modal" class="modal">
+        <div class="modal-content">
+            <h3>Conferma</h3>
+            <p id="confirm-message"></p>
+            <div class="modal-actions">
+                <button id="confirm-yes" class="btn-danger">Sì</button>
+                <button id="confirm-no" class="btn-secondary">No</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/app.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/storage.js"></script>
+    <script>
+        // Registra il service worker per la PWA
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then(reg => console.log('Service Worker registrato'))
+                    .catch(err => console.log('Service Worker non registrato', err));
+            });
+        }
+    </script>
+</body>
+</html>
+
