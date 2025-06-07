@@ -1,0 +1,465 @@
+/* Reset e variabili */
+:root {
+    --primary-color: #4285f4;
+    --primary-dark: #3367d6;
+    --secondary-color: #34a853;
+    --danger-color: #ea4335;
+    --warning-color: #fbbc05;
+    --light-color: #f8f9fa;
+    --dark-color: #202124;
+    --gray-color: #5f6368;
+    --light-gray: #dadce0;
+    --border-radius: 8px;
+    --shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background-color: #f1f3f4;
+    color: var(--dark-color);
+    line-height: 1.6;
+    padding-bottom: 70px; /* Spazio per il footer su mobile */
+}
+
+/* Layout principale */
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: var(--shadow);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+}
+
+.nav-btn {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.nav-btn i {
+    margin-right: 0.3rem;
+}
+
+.nav-btn.active {
+    color: white;
+    font-weight: bold;
+    border-bottom: 3px solid white;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+footer {
+    background-color: var(--dark-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Componenti */
+.card {
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card h2 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    border-bottom: 1px solid var(--light-gray);
+    padding-bottom: 0.5rem;
+}
+
+/* Pagine */
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+/* Dashboard */
+.medie-generali {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.media-box {
+    flex: 1;
+    min-width: 120px;
+    background-color: var(--light-color);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.media-box h3 {
+    font-size: 0.9rem;
+    color: var(--gray-color);
+    margin-bottom: 0.5rem;
+}
+
+.media-value {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.media-box.highlight {
+    background-color: var(--primary-color);
+}
+
+.media-box.highlight h3,
+.media-box.highlight .media-value {
+    color: white;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    border-bottom: 1px solid var(--light-gray);
+    margin-bottom: 1rem;
+}
+
+.tab-btn {
+    background: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: var(--gray-color);
+    transition: var(--transition);
+}
+
+.tab-btn.active {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    font-weight: bold;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Tabelle */
+.medie-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.medie-table th,
+.medie-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.medie-table th {
+    font-weight: bold;
+    color: var(--gray-color);
+}
+
+.medie-table td:last-child {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+/* Lista voti */
+.voti-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.voto-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.voto-info {
+    flex: 1;
+}
+
+.voto-materia {
+    font-weight: bold;
+}
+
+.voto-details {
+    font-size: 0.8rem;
+    color: var(--gray-color);
+}
+
+.voto-value {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 50%;
+    min-width: 40px;
+    text-align: center;
+}
+
+.voto-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.voto-actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--gray-color);
+    transition: var(--transition);
+}
+
+.voto-actions button:hover {
+    color: var(--primary-color);
+}
+
+.voto-actions .delete-btn:hover {
+    color: var(--danger-color);
+}
+
+/* Colori voti */
+.voto-value.ottimo {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.voto-value.buono {
+    background-color: #34a853;
+    color: white;
+}
+
+.voto-value.sufficiente {
+    background-color: var(--warning-color);
+    color: white;
+}
+
+.voto-value.insufficiente {
+    background-color: var(--danger-color);
+    color: white;
+}
+
+/* Form */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+    color: var(--gray-color);
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--light-gray);
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(66, 133, 244, 0.2);
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+/* Bottoni */
+.btn-primary,
+.btn-secondary,
+.btn-danger {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-weight: bold;
+    transition: var(--transition);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+}
+
+.btn-secondary {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+.btn-secondary:hover {
+    background-color: var(--light-gray);
+}
+
+.btn-danger {
+    background-color: var(--danger-color);
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #d93025;
+}
+
+/* Gestione dati */
+.data-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.active {
+    display: flex;
+}
+
+.modal-content {
+    background-color: white;
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: var(--shadow);
+}
+
+.modal-content h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+/* Media queries per responsive design */
+@media (max-width: 768px) {
+    .medie-generali {
+        flex-direction: column;
+    }
+    
+    .form-actions {
+        flex-direction: column;
+    }
+    
+    .form-actions button {
+        width: 100%;
+    }
+    
+    .data-actions {
+        flex-direction: column;
+    }
+    
+    .data-actions button {
+        width: 100%;
+    }
+    
+    .tabs {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-btn span {
+        display: none;
+    }
+    
+    .nav-btn i {
+        margin-right: 0;
+        font-size: 1.2rem;
+    }
+    
+    .card {
+        padding: 1rem;
+    }
+    
+    .voto-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .voto-value {
+        margin-top: 0.5rem;
+    }
+    
+    .voto-actions {
+        margin-top: 0.5rem;
+        width: 100%;
+        justify-content: flex-end;
+    }
+}
+
