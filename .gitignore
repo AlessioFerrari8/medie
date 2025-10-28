@@ -39,3 +39,5 @@ yarn.lock
 
 # File di script di sviluppo che non servono all'applicazione
 create_icons.sh
+
+voti.txt

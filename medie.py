@@ -1,10 +1,10 @@
 import re
 from datetime import datetime
 from collections import defaultdict
-from rich import print  # Per output colorato
+#from rich import print  # Per output colorato
 
 # === 📂 Leggi da file ===
-nome_file = "medieCalculator/voti.txt"  # Cambia questo nome se il file ha un nome diverso
+nome_file = "voti.txt"  # Cambia questo nome se il file ha un nome diverso
 
 try:
     with open(nome_file, "r", encoding="utf-8") as f:
